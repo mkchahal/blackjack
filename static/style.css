@@ -1,0 +1,55 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.game-container {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.game-container img {
+    margin-left: 30px;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3 {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.game-board-container {
+    background-image: url(https://img.freepik.com/free-vector/poker-table-background-green-color_47243-1068.jpg?w=996);
+    color: white;
+}
+
+.flex-blackjack-row-1 div {
+    padding: 10px;
+    height: 350px;
+    flex: 1;
+    text-align: center;
+}
+
+.flex-blackjack-row-1 img {
+    width: 25%;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 div {
+    padding: 10px;
+}
+
+table th {
+  padding: 5px;
+  background-color: lightgray;
+  border: 1px solid black; 
+  text-align: center;
+}
+
+td {
+    border: 1px solid black; 
+    text-align: center;
+    padding: 5px;
+}
