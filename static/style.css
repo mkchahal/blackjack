@@ -4,13 +4,21 @@ body{
 
 .game-container {
     width: 75%;
+    height: 100vh;
     margin: 0 auto;
     text-align: center;
-    margin-top: 5%;
 }
 
 .game-container img {
     margin-left: 30px;
+}
+
+.game-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 1rem 0;
 }
 
 .flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3 {
@@ -23,6 +31,8 @@ body{
 .game-board-container {
     background-image: url(https://img.freepik.com/free-vector/poker-table-background-green-color_47243-1068.jpg?w=996);
     color: white;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
 }
 
 .flex-blackjack-row-1 div {
@@ -41,15 +51,18 @@ body{
     padding: 10px;
 }
 
-table th {
-  padding: 5px;
-  background-color: lightgray;
-  border: 1px solid black; 
-  text-align: center;
+table {
+    border: 2px solid #000;
+    text-align: center;
 }
 
-td {
-    border: 1px solid black; 
-    text-align: center;
-    padding: 5px;
+table th {
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem 1rem;
 }
+
+table td {
+    padding: 0.5rem 1rem;
+}
+
