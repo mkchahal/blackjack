@@ -29,7 +29,7 @@ body{
     justify-content: space-around;
 }
 .game-board-container {
-    background-image: url(https://img.freepik.com/free-vector/poker-table-background-green-color_47243-1068.jpg?w=996);
+    background-image: url(./images/board.jpeg);
     color: white;
     border-radius: 1rem;
     margin-bottom: 2rem;

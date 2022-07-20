@@ -1,26 +1,19 @@
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./static/images/blackJack.png">
     <title>Blackjack Game</title>
     <link rel="stylesheet" href="./static/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
-
 <body>
     <div class="game-container">
         <div class="game-heading">
-            <img height=150
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Blackjack.svg/1200px-Blackjack.svg.png"
-                alt="">
+            <img height=150 src="./static/images/blackJack.png" alt="logo">
             <div>
-                <h1><strong>Blackjack Game</strong><a target="_blank"
-                        href="https://www.youtube.com/watch?v=eyoh-Ku9TCI&ab_channel=wikiHow"><img height=30
-                            src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Cute-Ball-Help-icon.png"
-                            alt="help-icon"></a></h1>
+                <h1><strong>Blackjack Game</strong><a target="_blank" href="https://www.youtube.com/watch?v=eyoh-Ku9TCI&ab_channel=wikiHow"><img height=30 src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Cute-Ball-Help-icon.png" alt="help-icon"></a></h1>
                 <h2><span id="blackjack-result">Let's Play</span></h2>
             </div>
         </div>
@@ -29,12 +22,12 @@
                 <div id="your-box">
                     <h2>You: <span id="your-blackjack-result">0</span></h2>
                 </div>
-
+                
                 <div id="dealer-box">
                     <h2>Dealer: <span id="dealer-blackjack-result">0</span></h2>
                 </div>
             </div>
-
+            
             <div class="flex-blackjack-row-2">
                 <div>
                     <button class="btn-lg btn-primary mr-3" id="blackjack-hit-button">Hit</button>
@@ -43,15 +36,15 @@
                 </div>
             </div>
         </div>
-
+        
         <div class="flex-blackjack-row-3">
             <table>
-                <tr>
-                    <th>Wins</th>
-                    <th>Losses</th>
-                    <th>Draws</th>
-                </tr>
-
+                    <tr>
+                        <th>Wins</th>
+                        <th>Losses</th>
+                        <th>Draws</th>
+                    </tr>
+                
                 <tr>
                     <td><span id="wins">0</span></td>
                     <td><span id="losses">0</span></td>
@@ -62,5 +55,4 @@
     </div>
     <script src="./static/script.js"></script>
 </body>
-
 </html>
