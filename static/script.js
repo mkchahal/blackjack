@@ -34,7 +34,7 @@ function blackjackHit() {
 
 function randomCard() {
     return blackjackGame['cards'][Math.floor(Math.random() * 13)];
-}. 
+}
 
 function showCard(card, activePlayer) {
     if (activePlayer['score'] <= 21) {
